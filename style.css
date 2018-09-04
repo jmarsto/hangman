@@ -1,0 +1,160 @@
+#game {
+  position: relative;
+  background-color: #999;
+  width: 100%;
+  height: 400px;
+  min-width: 300px;
+}
+
+.board {
+  height: 20%;
+  font-size: 30px;
+  padding: 10px;
+  margin: 30px;
+  text-align: center;
+}
+
+.gallows {
+  position: relative;
+  display: block;
+  height: 60%;
+  text-align: right;
+}
+
+.platform {
+  position: absolute;
+  width: 100%;
+  background-color: black;
+  height: 5%;
+  margin: auto;
+  bottom: 0;
+}
+
+.post {
+  height: 80%;
+  background-color: black;
+  width: 3%;
+  position: absolute;
+  right: 10%;
+  top: 20%;
+}
+
+.boom {
+  position: absolute;
+  background-color: black;
+  height: 5%;
+  right: 10%;
+  top: 20%;
+  width: 20%
+}
+
+.noose {
+  position: absolute;
+  background-color: black;
+  height: 15%;
+  right: 28%;
+  top: 20%;
+  width: 1%
+}
+
+.man {
+  position: absolute;
+  top: 35%;
+  right: 21%;
+  height: 50%;
+  width: 15%;
+}
+
+.man div {
+  border: 3px solid purple;
+}
+
+.head {
+  visibility: hidden;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 29%;
+  height: 22%;
+  width: 40%
+}
+
+.torso {
+  visibility: hidden;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  position: absolute;
+  width: 45%;
+  top: 25%;
+  right: 25%;
+  height: 30%;
+}
+
+.leftLeg {
+  visibility: hidden;
+  border-bottom-left-radius: 35%;
+  border-bottom-right-radius: 35%;
+  position: absolute;
+  width: 19%;
+  top: 58%;
+  right: 51%;
+  height: 30%;
+}
+
+.rightLeg {
+  visibility: hidden;
+  border-bottom-left-radius: 35%;
+  border-bottom-right-radius: 35%;
+  position: absolute;
+  width: 19%;
+  top: 58%;
+  right: 25%;
+  height: 30%;
+}
+
+.leftArm {
+  visibility: hidden;
+  position: absolute;
+  border-top-left-radius: 70%;
+  border-top-right-radius: 15%;
+  border-bottom-right-radius: 70%;
+  top: 32%;
+  right: 74%;
+  width: 12%;
+  height: 30%;
+}
+
+.rightArm {
+  visibility: hidden;
+  position: absolute;
+  border-top-left-radius: 15%;
+  border-top-right-radius: 70%;
+  border-bottom-left-radius: 70%;
+  top: 32%;
+  right: 10%;
+  width: 12%;
+  height: 30%;
+}
+
+.guessBox {
+  margin-top: 10%;
+  color: red;
+  text-shadow: 1px 1px black;
+  font-size: 45px;
+  text-align: center;
+  position: absolute;
+  height: 95%;
+  width: 60%;
+}
+
+.dialog {
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+  height: 10%;
+  width: 80%;
+  text-align: center;
+  color: purple;
+  font-style: italic;
+  font-size: 18px;
+}
